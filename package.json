@@ -1,0 +1,26 @@
+{
+  "name": "generator-test",
+  "description": "test generator race condition",
+  "version": "0.0.0",
+  "author": {
+    "name": "Brian Lai",
+    "email": "brian.lai.ym@gmail.com"
+  },
+  "main": "app/index.js",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "mocha test"
+  },
+  "devDependencies": {
+    "mocha": "~1.8.1"
+  },
+  "keywords": [
+    "yeoman-generator",
+    "yeoman"
+  ],
+  "dependencies": {
+    "yeoman-generator": "~0.10.2"
+  }
+}
